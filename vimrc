@@ -34,3 +34,8 @@ set noswapfile
 " Messages and Info
 set showcmd
 
+" Airline
+let g:airline_theme="dracula"
+call airline#parts#define_accent('mode', 'none')
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+let g:airline#extensions#tabline#enabled = 1
