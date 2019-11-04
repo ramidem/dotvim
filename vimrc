@@ -1,3 +1,7 @@
+" Pathogen.vim
+call pathogen#infect()
+filetype plugin indent on
+
 " Line Numbers
 set number relativenumber
 
