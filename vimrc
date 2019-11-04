@@ -10,7 +10,7 @@ syntax on
 set cursorline
 
 " Colorscheme
-color slate
+color dracula
 
 " Tabs and Indenting
 set tabstop=2
