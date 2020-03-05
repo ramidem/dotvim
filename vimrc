@@ -13,8 +13,7 @@ set cursorline
 color dracula
 
 " Tabs and Indenting
-set tabstop=2
-set autoindent
+set tabstop=2 shiftwidth=2 expandtab
 
 " Mapping
 let mapleader = "\<Space>"
