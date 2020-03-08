@@ -4,9 +4,6 @@
 [submodule "bundle/airline"]
 	path = bundle/airline
 	url = git@github.com:vim-airline/vim-airline.git
-[submodule "bundle/polyglot"]
-	path = bundle/polyglot
-	url = git@github.com:sheerun/vim-polyglot.git
 [submodule "bundle/vim-jsbeautify"]
 	path = bundle/vim-jsbeautify
 	url = git@github.com:maksimr/vim-jsbeautify.git
