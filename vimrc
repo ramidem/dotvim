@@ -44,3 +44,4 @@ map <c-f> :call JsBeautify()<cr>
 
 " Codi Vim
 map <c-c> :Codi!! javascript<cr>
+let g:codi#width=25
