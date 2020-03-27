@@ -3,7 +3,7 @@ call pathogen#infect()
 filetype plugin indent on
 
 " Line Numbers
-set number relativenumber
+" set number relativenumber
 
 " Syntax, Highlighting and Spelling
 syntax on
