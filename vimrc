@@ -2,9 +2,6 @@
 call pathogen#infect()
 filetype plugin indent on
 
-" Line Numbers
-" set number relativenumber
-
 " Syntax, Highlighting and Spelling
 syntax on
 set cursorline
@@ -45,3 +42,12 @@ map <c-f> :call JsBeautify()<cr>
 " Codi Vim
 map <c-c> :Codi!! javascript<cr>
 let g:codi#width=25
+
+" Run Python file in vim
+" https://stackoverflow.com/questions/18948491/running-python-code-in-vim
+
+"   Normal mode
+autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+
+"   Insert mode
+autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
